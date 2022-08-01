@@ -1,0 +1,32 @@
+---
+title: "Presentation Ninja"
+author: "Yihui Xie"
+output:
+  xaringan::moon_reader:
+     css: [rladies, rladies-fonts]
+     self_contained: true
+     nature:
+     ratio: '16:9'  
+---
+
+# Títlo nuevo
+
+Contenido
+
+## Título nivel 2
+
+Contenido: mirar
+
+
+---
+
+# Nueva diapositiva
+
+```{r, xaringanExtra-clipboar, echo=FALSE}
+xaringanExtra::use_clipboard()
+```
+
+```{r}
+1+2
+```
+
